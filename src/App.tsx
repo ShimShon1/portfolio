@@ -8,7 +8,7 @@ export default function App() {
         <Nav />
       </header>
       <div className=" min-h-screen bg-gray-50">
-        <main className=" m-auto w-full p-4  md:w-5/6 ">
+        <main className=" m-auto w-full p-4  md:w-[80%] ">
           <About />
         </main>
       </div>
