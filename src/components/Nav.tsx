@@ -3,14 +3,14 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Nav() {
   return (
-    <nav className="flex justify-between items-center w-full  md:m-auto">
+    <nav className="flex w-full items-center justify-between  md:m-auto">
       <a href="/">
         <img className="w-12 md:w-14" src={navLogo} alt="" />
       </a>
 
       <AiOutlineMenu className="md:hidden" size={"32px"} color="white" />
 
-      <ul className="md:flex gap-4 lg:gap-5 text-gray-200 font-semibold hidden text-xl">
+      <ul className="hidden gap-4 text-xl font-semibold text-gray-50 md:flex lg:gap-5">
         <li>
           {" "}
           <a href="">About</a>{" "}
