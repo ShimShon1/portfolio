@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-family: "Karla", sans-serif;
+}
+
+nav {
+  font-family: "Lora", serif;
+}

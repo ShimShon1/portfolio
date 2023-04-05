@@ -1,14 +1,12 @@
-import navLogo from "../assests/logoNav.png";
+import Nav from "./components/Nav";
 
-function App() {
+export default function App() {
   return (
     <>
-      <div className="App bg-sky-600">
-        App <img src={navLogo} className="w-16" alt="" />
-      </div>
-      ;
+      <header className="bg-sky-700 w-full p-3 lg:p-4 px-6 shadow-md sticky top-0 lg:px-12">
+        <Nav />
+      </header>
+      <main className="min-h-screen bg-gray-200"></main>
     </>
   );
 }
-
-export default App;
