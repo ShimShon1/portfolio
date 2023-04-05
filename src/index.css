@@ -6,6 +6,7 @@ html {
   font-family: "Karla", sans-serif;
 }
 
-nav {
+nav,
+.lora {
   font-family: "Lora", serif;
 }
