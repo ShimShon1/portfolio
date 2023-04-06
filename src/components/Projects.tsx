@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import Project from "./Project";
+import { projectsData, projectDataType } from "../data/projectsData";
+import Title from "./Title";
 
 export default function Projects() {
+  let projectElms: JSX.Element[] = [];
+
+  for (let i = 0; i < projectsData.length; i++) {
+    let notReversed = i % 2 == 0;
+    // isReversed = false;
+    projectElms.push(
+      <Project data={projectsData[i]} reversed={!notReversed} />
+    );
+    console.log("hey");
+  }
   return (
-    <section>
-      <div className="gap-2 md:flex md:text-left">
-        <h1 className="lora  text-4xl"> Projects </h1>
-        {/* <hr className="relative top-5   hidden h-2  w-1/3 border-sky-900 border-opacity-40 md:inline-block" /> */}
-      </div>
+    <section className="space-y-6 lg:space-y-10">
+      <Title>Projects</Title>
+      {projectElms}
     </section>
   );
 }

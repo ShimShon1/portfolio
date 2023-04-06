@@ -27,7 +27,7 @@ export default function () {
           is always eager to learn{" "}
         </p>
         <div className="flex items-center justify-between pt-4 lg:justify-start lg:gap-8 lg:pr-8">
-          <button className="name font-leg rounded-full border-none bg-sky-900 p-2 px-6 text-lg font-semibold tracking-wide text-gray-50 hover:bg-sky-700 lg:px-7 lg:tracking-wider">
+          <button className="name font-leg rounded-full border-none bg-sky-700 p-2 px-6 text-lg font-semibold tracking-wide text-gray-50 hover:bg-sky-700 lg:px-7 lg:tracking-wider">
             Contact
           </button>
           <div className="flex gap-4 ">
