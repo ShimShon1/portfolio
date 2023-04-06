@@ -13,7 +13,7 @@ export default function Project({
       {/* project details */}
       <div className="col-span-2 grid  p-4">
         <h3 className="lora text-lg font-bold lg:text-xl">{data.name}</h3>
-        <p className=" text-sm  leading-5 md:leading-7 lg:text-lg">
+        <p className="  mb-2  text-sm leading-7 md:mb-0 lg:text-lg">
           {data.para}
         </p>
         <span className=" text-sm font-light lg:text-base">

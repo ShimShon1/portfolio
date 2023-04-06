@@ -8,7 +8,10 @@ import {
 
 export default function () {
   return (
-    <section className=" flex min-h-[50vh] flex-col items-center  text-center  md:flex-row md:justify-between   ">
+    <section
+      className=" flex min-h-[50vh] flex-col items-center  text-center  md:flex-row md:justify-between   "
+      id={"about"}
+    >
       <div
         className={`mb-4 h-64 w-64 border-spacing-6 rounded-full border-4 border-double border-blue-500  bg-my-image bg-cover bg-center md:order-last lg:h-72 lg:w-72`}
       ></div>

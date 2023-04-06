@@ -13,13 +13,13 @@ export default function Nav() {
       <ul className="hidden gap-4 text-xl font-semibold text-gray-50 md:flex lg:gap-5">
         <li>
           {" "}
-          <a href="">About</a>{" "}
+          <a href="#about">About</a>{" "}
         </li>
         <li>
-          <a href="">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
