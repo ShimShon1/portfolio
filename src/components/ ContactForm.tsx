@@ -30,7 +30,7 @@ export default function ContactForm() {
       <div className="space-y-4  ">
         <div className="">
           <input
-            className="h-10 w-full rounded-sm border border-sky-800 focus:outline-none"
+            className="h-10 w-full rounded-sm border border-sky-800 indent-2 focus:outline-none"
             type="text"
             placeholder="Your name"
             name="name"
@@ -42,7 +42,7 @@ export default function ContactForm() {
             type="email"
             placeholder="Email"
             name="email"
-            className="h-10 w-full rounded-sm border border-sky-800 focus:outline-none"
+            className="h-10 w-full rounded-sm border border-sky-800 indent-2 focus:outline-none"
             required
           />
         </div>
