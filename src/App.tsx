@@ -1,6 +1,7 @@
 import ContactForm from "./components/ ContactForm";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 
@@ -15,6 +16,7 @@ export default function App() {
           <About />
           <Projects />
           <Contact />
+          <Footer />
         </main>
       </div>
     </>

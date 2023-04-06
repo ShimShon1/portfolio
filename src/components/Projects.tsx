@@ -23,7 +23,7 @@ export default function Projects() {
       <div className="m-auto flex items-center justify-center gap-2 text-xl font-semibold">
         More on my{" "}
         <a
-          className="flex w-fit  items-center gap-1 rounded-sm  bg-sky-800 px-2 py-1  text-gray-50"
+          className="flex w-fit  items-center gap-1 rounded-sm  bg-sky-800 px-2 py-1 text-gray-50  hover:bg-sky-700"
           href="https://github.com/ShimShon1"
         >
           GitHub <FiGithub />

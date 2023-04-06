@@ -30,13 +30,35 @@ export default function () {
           is always eager to learn{" "}
         </p>
         <div className="flex items-center justify-between pt-4 lg:justify-start lg:gap-8 lg:pr-8">
-          <button className="name font-leg rounded-full border-none bg-sky-700 p-2 px-6 text-lg font-semibold tracking-wide text-gray-50 hover:bg-sky-700 lg:px-7 lg:tracking-wider">
+          <a
+            href="#contact"
+            className="name font-leg rounded-full border-none bg-sky-700 p-2 px-6 text-lg 
+          font-semibold tracking-wide text-gray-50  hover:bg-sky-800 active:bg-sky-400 lg:px-7 lg:tracking-wider"
+          >
             Contact
-          </button>
+          </a>
           <div className="flex gap-4 ">
-            <AiOutlineGithub size={32} />
-            <AiOutlineLinkedin size={32} />
-            <AiOutlineTwitter size={32} />
+            <a
+              href="https://github.com/ShimShon1"
+              target={"_blank"}
+              className="transition-all hover:scale-125 hover:text-sky-700 active:text-sky-400"
+            >
+              <AiOutlineGithub size={32} />
+            </a>
+            <a
+              href="https://twitter.com/CaptainBourbon"
+              target={"_blank"}
+              className="transition-all hover:scale-125 hover:text-sky-700 active:text-sky-400"
+            >
+              <AiOutlineTwitter size={32} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dean-effi-249145271/"
+              target={"_blank"}
+              className="transition-all hover:scale-125 hover:text-sky-700 active:text-sky-400"
+            >
+              <AiOutlineLinkedin size={32} />
+            </a>
           </div>
         </div>
       </div>

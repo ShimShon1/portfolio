@@ -12,7 +12,9 @@ export default function Project({
     <div className="  rounded-md border-t bg-gray-100 text-left shadow-md  shadow-sky-800 md:grid md:grid-cols-4">
       {/* project details */}
       <div className="col-span-2 grid  p-4">
-        <h3 className="lora text-lg font-bold lg:text-xl">{data.name}</h3>
+        <h3 className="lora self-center text-lg font-bold lg:text-xl xl:text-2xl">
+          {data.name}
+        </h3>
         <p className="  mb-2  text-sm leading-7 md:mb-0 lg:text-lg">
           {data.para}
         </p>
@@ -22,13 +24,13 @@ export default function Project({
         </span>
         <div className="mt-4 flex space-x-4 self-center lg:text-lg">
           <a
-            className="flex w-fit  items-center gap-1 rounded-sm  bg-sky-800 px-2 py-1  text-gray-50"
+            className="flex w-fit  items-center gap-1 rounded-sm  bg-sky-800 px-2 py-1 text-gray-50  hover:bg-sky-700"
             href={data.gitLink}
           >
             Code <FiGithub />
           </a>
           <a
-            className="flex  w-fit items-center gap-1 rounded-sm bg-gray-200 px-2 py-1 "
+            className="flex  w-fit items-center gap-1 rounded-sm bg-gray-200 px-2 py-1 hover:bg-gray-300 "
             href={data.liveLink}
           >
             Live <FiExternalLink />
