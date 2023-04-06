@@ -60,7 +60,6 @@ export default function ContactForm() {
       <div className="">
         <button
           className="rounded-md bg-sky-700 px-3 py-1.5 text-gray-50 hover:bg-sky-800 active:bg-sky-400"
-          py-1
           type="submit"
         >
           Send a message
