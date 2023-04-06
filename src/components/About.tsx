@@ -1,7 +1,5 @@
-import React from "react";
 import {
   AiOutlineGithub,
-  AiOutlineLink,
   AiOutlineLinkedin,
   AiOutlineTwitter,
 } from "react-icons/ai";

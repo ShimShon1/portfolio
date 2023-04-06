@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Project from "./Project";
 import { projectsData, projectDataType } from "../data/projectsData";
 import Title from "./Title";
@@ -13,7 +12,6 @@ export default function Projects() {
     projectElms.push(
       <Project data={projectsData[i]} reversed={!notReversed} />
     );
-    console.log("hey");
   }
   return (
     <section className="space-y-6 lg:space-y-10" id="projects">

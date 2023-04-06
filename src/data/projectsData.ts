@@ -28,7 +28,7 @@ export let projectsData: projectDataType[] = [
     reversed: false,
     para: "Peeper is a social media app that allows the user to post and interact with the posts of others. .",
     gitLink: "https://github.com/ShimShon1/peeper",
-    liveLink: "https://crypto-watch-eight.vercel.app/",
+    liveLink: "https://peeper.vercel.app/",
     wasMade: "using Firebase, React and Tailwindcss",
     img: p1,
   },

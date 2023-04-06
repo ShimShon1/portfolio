@@ -4,7 +4,6 @@ import { useState } from "react";
 
 export default function Nav() {
   let [collapsed, setCollapsed] = useState(false);
-  console.log(collapsed);
   return (
     <nav className="flex w-full items-center justify-between  md:m-auto">
       <a href="/">
