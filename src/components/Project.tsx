@@ -16,14 +16,14 @@ export default function Project({
           {data.name}
         </h1>
 
-        <p className="  mb-2  text-sm leading-7 md:mb-0 lg:text-lg">
+        <p className="  mb-2  text-sm leading-7 md:mb-0 xl:text-lg">
           {data.para}
         </p>
-        <span className=" text-sm font-light lg:text-base">
+        <span className=" text-sm font-light xl:text-base">
           <hr />
           Was made {data.wasMade}
         </span>
-        <div className="mt-4 flex space-x-4 self-center lg:text-lg">
+        <div className="mt-4 flex space-x-4 self-center xl:text-lg">
           <a
             className="flex w-fit  items-center gap-1 rounded-sm  bg-sky-800 px-2 py-1 text-gray-50  hover:bg-sky-700"
             href={data.gitLink}
@@ -43,7 +43,11 @@ export default function Project({
 
       {/* project display */}
 
-      <div className={` ${reversed && "md:order-first"}   p-3 md:col-span-2`}>
+      <div
+        className={` ${
+          reversed && "md:order-first"
+        }   self-center p-3 md:col-span-2`}
+      >
         <a
           href={data.liveLink}
           target={"_blank"}
@@ -51,7 +55,7 @@ export default function Project({
         >
           {" "}
           <img
-            className=" w-full border   shadow-md lg:h-96"
+            className="  border object-contain  shadow-md "
             src={data.img}
             alt=""
           />
