@@ -12,9 +12,9 @@ export default function Project({
       {/* project details */}
 
       <div className="col-span-2 grid  p-4">
-        <h3 className="lora self-center text-lg font-bold lg:text-xl xl:text-2xl">
+        <h1 className="lora self-center text-lg font-bold lg:text-xl xl:text-2xl">
           {data.name}
-        </h3>
+        </h1>
 
         <p className="  mb-2  text-sm leading-7 md:mb-0 lg:text-lg">
           {data.para}
@@ -32,7 +32,7 @@ export default function Project({
             Code <FiGithub />
           </a>
           <a
-            className="flex  w-fit items-center gap-1 rounded-sm bg-gray-200 px-2 py-1 hover:bg-gray-300 "
+            className="py-  flex  w-fit items-center gap-1 rounded-sm bg-gray-200 px-2 hover:bg-gray-300 "
             href={data.liveLink}
             target={"_blank"}
           >
@@ -44,7 +44,11 @@ export default function Project({
       {/* project display */}
 
       <div className={` ${reversed && "md:order-first"}   p-3 md:col-span-2`}>
-        <a href={data.liveLink} target={"_blank"}>
+        <a
+          href={data.liveLink}
+          target={"_blank"}
+          aria-label={data.name + " live"}
+        >
           {" "}
           <img
             className=" w-full border   shadow-md lg:h-96"

@@ -8,9 +8,12 @@ export default function Projects() {
 
   for (let i = 0; i < projectsData.length; i++) {
     let notReversed = i % 2 == 0;
-    // isReversed = false;
     projectElms.push(
-      <Project data={projectsData[i]} reversed={!notReversed} />
+      <Project
+        key={projectsData[i].id}
+        data={projectsData[i]}
+        reversed={!notReversed}
+      />
     );
   }
   return (

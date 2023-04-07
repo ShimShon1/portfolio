@@ -3,6 +3,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineTwitter,
 } from "react-icons/ai";
+import AboutIcon from "./AboutIcon";
 
 export default function () {
   return (
@@ -19,9 +20,9 @@ export default function () {
           <h1 className=" lora mb-0 text-5xl lg:text-6xl 2xl:text-7xl">
             Dean Effi
           </h1>
-          <h3 className=" text-lg font-extralight lg:text-2xl ">
+          <h2 className=" text-lg font-extralight lg:text-2xl ">
             Building Websites
-          </h3>
+          </h2>
         </div>
         <p className="mt-2 text-lg  leading-loose lg:text-xl">
           I am an inquisitive and a passionate <b>Front-End developer </b> who
@@ -35,28 +36,25 @@ export default function () {
           >
             Contact
           </a>
+
           <div className="flex gap-4 ">
-            <a
-              href="https://github.com/ShimShon1"
-              target={"_blank"}
-              className="transition-all hover:scale-125 hover:text-sky-700 active:text-sky-400"
-            >
+            <AboutIcon link={"https://github.com/ShimShon1"} label="github">
               <AiOutlineGithub size={32} />
-            </a>
-            <a
-              href="https://twitter.com/CaptainBourbon"
-              target={"_blank"}
-              className="transition-all hover:scale-125 hover:text-sky-700 active:text-sky-400"
+            </AboutIcon>
+
+            <AboutIcon
+              link={"https://twitter.com/CaptainBourbon"}
+              label="twitter"
             >
               <AiOutlineTwitter size={32} />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/dean-effi-249145271/"
-              target={"_blank"}
-              className="transition-all hover:scale-125 hover:text-sky-700 active:text-sky-400"
+            </AboutIcon>
+
+            <AboutIcon
+              link={"https://www.linkedin.com/in/dean-effi-249145271/"}
+              label="linkedin"
             >
               <AiOutlineLinkedin size={32} />
-            </a>
+            </AboutIcon>
           </div>
         </div>
       </div>

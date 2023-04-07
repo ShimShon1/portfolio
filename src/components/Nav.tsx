@@ -6,7 +6,7 @@ export default function Nav() {
   let [collapsed, setCollapsed] = useState(false);
   return (
     <nav className="flex w-full items-center justify-between  md:m-auto">
-      <a href="/">
+      <a href="/" aria-label="about">
         <img className="w-12 md:w-14" src={navLogo} alt="" />
       </a>
 
@@ -15,6 +15,7 @@ export default function Nav() {
         className="md:hidden"
         size={"32px"}
         color="white"
+        aria-label="open menu"
       />
 
       {/* collapseable */}

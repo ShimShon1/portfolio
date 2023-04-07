@@ -4,8 +4,8 @@ import cs1 from "../assets/projectsSs/cs1.png";
 import bs1 from "../assets/projectsSs/bs1.png";
 
 export type projectDataType = {
+  id: number;
   name: string;
-  reversed: boolean;
   para: string;
   gitLink: string;
   liveLink: string;
@@ -15,8 +15,8 @@ export type projectDataType = {
 
 export let projectsData: projectDataType[] = [
   {
+    id: 1,
     name: "CryptoWatch",
-    reversed: false,
     para: "CryptoWatch allows you to view data about CryptoCurrency Coins and exchanges, using the coingecko api to receive the data.",
     gitLink: "https://github.com/ShimShon1/CryptoWatch",
     liveLink: "https://crypto-watch-eight.vercel.app/",
@@ -24,8 +24,8 @@ export let projectsData: projectDataType[] = [
     img: cw1,
   },
   {
+    id: 2,
     name: "Peeper",
-    reversed: false,
     para: "Peeper is a social media app that allows the user to post and interact with the posts of others. .",
     gitLink: "https://github.com/ShimShon1/peeper",
     liveLink: "https://peeper.vercel.app/",
@@ -33,8 +33,8 @@ export let projectsData: projectDataType[] = [
     img: p1,
   },
   {
+    id: 3,
     name: "Clothing Shop",
-    reversed: false,
     para: "A Clothing Shop site, the user can browse, filter and add clothings to the cart",
     gitLink: "https://github.com/ShimShon1/Clothing-Shop",
     liveLink: "https://clothing-shop-nu.vercel.app/",
@@ -42,9 +42,9 @@ export let projectsData: projectDataType[] = [
     img: cs1,
   },
   {
+    id: 4,
     name: "BattleShip",
-    reversed: false,
-    para: "A game of battleship!",
+    para: "A game of battleship written in Vanilla Javascript",
     gitLink: "https://github.com/ShimShon1/BattleShip",
     liveLink: "https://shimshon1.github.io/BattleShip/",
     wasMade: "using Vanilla Javascript and Tailwindcss",
