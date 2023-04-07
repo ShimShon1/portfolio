@@ -30,6 +30,7 @@ export default function ContactForm() {
       <div className="space-y-4  ">
         <div className="">
           <input
+            aria-label="name"
             className="h-10 w-full rounded-sm border border-sky-800 indent-2 focus:outline-none"
             type="text"
             placeholder="Your name"
@@ -40,6 +41,7 @@ export default function ContactForm() {
         <div className="">
           <input
             type="email"
+            aria-label="email"
             placeholder="Email"
             name="email"
             className="h-10 w-full rounded-sm border border-sky-800 indent-2 focus:outline-none"
@@ -50,10 +52,11 @@ export default function ContactForm() {
 
       <div className="">
         <textarea
-          placeholder="Your message"
+          placeholder="message"
           name="message"
           rows={6}
           className="w-full rounded-md border border-sky-800 indent-2 focus:outline-none"
+          aria-label="your message"
           required
         />
       </div>
