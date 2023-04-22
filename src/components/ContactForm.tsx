@@ -52,11 +52,11 @@ export default function ContactForm() {
 
       <div className="">
         <textarea
-          placeholder="message"
+          placeholder="Message"
           name="message"
           rows={6}
           className="w-full rounded-md border border-sky-800 indent-2 focus:outline-none"
-          aria-label="your message"
+          aria-label="message"
           required
         />
       </div>
