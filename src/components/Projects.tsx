@@ -17,8 +17,12 @@ export default function Projects() {
     );
   }
   return (
-    <section className="space-y-6 lg:space-y-10" id="projects">
-      <Title>Projects</Title>
+    <section
+      className="space-y-6 lg:space-y-10"
+      id="projects"
+      aria-labelledby="projects-title"
+    >
+      <Title name="projects" />
       {projectElms}
 
       <div className="m-auto flex items-center justify-center gap-2 text-xl font-semibold">

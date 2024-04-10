@@ -1,5 +1,5 @@
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-import { projectDataType } from "../data/projectsData";
+import type { projectDataType } from "../data/projectsData";
 export default function Project({
   data,
   reversed,
@@ -8,13 +8,13 @@ export default function Project({
   reversed: boolean;
 }) {
   return (
-    <div className="  rounded-md border-t bg-gray-100 text-left shadow-md  shadow-sky-800 md:grid md:grid-cols-4">
+    <article className="  rounded-md border-t bg-gray-100 text-left shadow-md  shadow-sky-800 md:grid md:grid-cols-4">
       {/* project details */}
 
       <div className="col-span-2 grid  p-4">
-        <h1 className="lora self-center text-lg font-bold lg:text-xl xl:text-2xl">
+        <h3 className="lora self-center text-lg font-bold lg:text-xl xl:text-2xl">
           {data.name}
-        </h1>
+        </h3>
 
         <p className="  mb-2  text-sm leading-7 md:mb-0 xl:text-lg">
           {data.para}
@@ -61,6 +61,6 @@ export default function Project({
           />
         </a>
       </div>
-    </div>
+    </article>
   );
 }
