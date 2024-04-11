@@ -1,7 +1,7 @@
-import cw1 from "../assets/projectsSs/cw1.png";
-import p1 from "../assets/projectsSs/p1.png";
-import cs1 from "../assets/projectsSs/cs1.png";
-import bs1 from "../assets/projectsSs/bs1.png";
+import cw from "../assets/projectsSs/cw.webp";
+import p from "../assets/projectsSs/p.webp";
+import cs from "../assets/projectsSs/cs.webp";
+import bs from "../assets/projectsSs/bs.webp";
 
 export type projectDataType = {
   id: number;
@@ -21,7 +21,7 @@ export let projectsData: projectDataType[] = [
     gitLink: "https://github.com/ShimShon1/CryptoWatch",
     liveLink: "https://crypto-watch-eight.vercel.app/",
     wasMade: "using React, Tailwindcss and TypeScript",
-    img: cw1,
+    img: cw,
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export let projectsData: projectDataType[] = [
     gitLink: "https://github.com/ShimShon1/peeper",
     liveLink: "https://peeper.vercel.app/",
     wasMade: "using Firebase, React and Tailwindcss",
-    img: p1,
+    img: p,
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export let projectsData: projectDataType[] = [
     gitLink: "https://github.com/ShimShon1/Clothing-Shop",
     liveLink: "https://clothing-shop-nu.vercel.app/",
     wasMade: "using React and Tailwindcss ",
-    img: cs1,
+    img: cs,
   },
   {
     id: 4,
@@ -48,6 +48,6 @@ export let projectsData: projectDataType[] = [
     gitLink: "https://github.com/ShimShon1/BattleShip",
     liveLink: "https://shimshon1.github.io/BattleShip/",
     wasMade: "using Vanilla Javascript and Tailwindcss",
-    img: bs1,
+    img: bs,
   },
 ];

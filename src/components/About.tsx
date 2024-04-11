@@ -13,7 +13,7 @@ export default function () {
       id={"about"}
     >
       <div
-        className={`mb-4 h-64 w-64 border-spacing-6 rounded-full border-4 border-double border-blue-500  bg-my-image bg-cover bg-center md:order-last lg:h-72 lg:w-72`}
+        className={`mb-4 h-64 w-64 border-spacing-6 rounded-full border-4 border-double border-blue-500   bg-my-image bg-cover bg-center md:order-last lg:h-72 lg:w-72`}
       ></div>
       <div className=" w-3/4 space-y-5 md:w-2/4 md:text-left ">
         <header>
