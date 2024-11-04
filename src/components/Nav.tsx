@@ -40,7 +40,7 @@ export default function Nav() {
         </ul>
       )}
 
-      <ul className="hidden gap-4 text-xl font-semibold text-gray-50 md:flex lg:gap-5">
+      <ul className="hidden gap-4 text-2xl font-semibold text-gray-50 md:flex lg:gap-5">
         <li>
           {" "}
           <a href="#about">About</a>{" "}

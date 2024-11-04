@@ -27,14 +27,14 @@ export default function () {
           </div>
         </header>
         <p className="mt-2 text-lg  leading-loose lg:text-xl">
-          I am an inquisitive and a passionate{" "}
-          <b>Front-End developer </b> who is always eager to learn{" "}
+          I am an inquisitive and a passionate <b>Web developer </b>{" "}
+          who is always eager to learn{" "}
         </p>
         <div className="flex items-center justify-between pt-4 lg:justify-start lg:gap-8 lg:pr-8">
           <a
             href="#contact"
             className="name font-leg rounded-full border-none bg-sky-700 p-2 px-6 text-lg 
-          font-semibold tracking-wide text-gray-50  hover:bg-sky-800 active:bg-sky-400 lg:px-7 lg:tracking-wider"
+          font-semibold uppercase tracking-wide text-gray-50  hover:bg-sky-800 active:bg-sky-400 lg:px-7 lg:tracking-wider"
           >
             Contact
           </a>
